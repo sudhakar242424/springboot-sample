@@ -27,11 +27,6 @@ class SpringbootExampleApplicationTests {
     void contextLoads() {
     }
 
-    /*@Test
-    void testMain() {
-        SpringbootExampleApplication.main(new String[]{}); // Call main method
-    }*/
-
     @Test
     void testMain() {
         // Call main and capture the ApplicationContext
