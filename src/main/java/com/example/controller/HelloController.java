@@ -9,6 +9,6 @@ public class HelloController {
 
     @GetMapping("/welcome/{name}")
     public String welcome(@PathVariable("name") String name) {
-        return name+", Welcome to Ashok IT Family..!!";
+        return name+", Welcome to SudhaTech..!!";
     }
 }
