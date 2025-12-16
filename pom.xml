@@ -12,6 +12,7 @@
 	<artifactId>springboot-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-example</name>
+    <packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
