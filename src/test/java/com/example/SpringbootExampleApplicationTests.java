@@ -21,6 +21,15 @@ class SpringbootExampleApplicationTests {
     }
 
     @Test
+    void contextLoads() {
+    }
+
+    @Test
+    void testMain() {
+        SpringbootExampleApplication.main(new String[]{}); // Call main method
+    }
+
+    @Test
      void testHelloEndpoint() {
         String message = "sudha";
         String response = helloController.welcome(message);
