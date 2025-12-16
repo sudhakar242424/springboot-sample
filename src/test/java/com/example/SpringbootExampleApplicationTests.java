@@ -21,7 +21,7 @@ class SpringbootExampleApplicationTests {
     }
 
     @Test
-    public void testHelloEndpoint() throws Exception {
+     void testHelloEndpoint() {
         String message = "sudha";
         String response = helloController.welcome(message);
 
