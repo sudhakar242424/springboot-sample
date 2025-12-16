@@ -11,8 +11,8 @@
 	<groupId>com.example</groupId>
 	<artifactId>springboot-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-example</name>
     <packaging>war</packaging>
+	<name>springboot-example</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -44,6 +44,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.0.0</version>
             <scope>provided</scope>
         </dependency>
 	</dependencies>
